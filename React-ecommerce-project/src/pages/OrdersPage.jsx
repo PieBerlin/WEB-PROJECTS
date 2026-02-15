@@ -1,67 +1,11 @@
+import { Header } from "../components/Header";
 import "./OrdersPage.css";
-import "./header.css";
 
 export function OrdersPage() {
   return (
     <>
       <title>orders</title>
-      <div className="header">
-        {" "}
-        {/* Fixed: className instead of classname */}
-        <div className="left-section">
-          {" "}
-          {/* Fixed */}
-          <a href="/" className="header-link">
-            {" "}
-            {/* Fixed */}
-            <img className="logo" src="images/logo-white.png" alt="logo" />{" "}
-            {/* Fixed */}
-            <img
-              className="mobile-logo"
-              src="images/mobile-logo-white.png"
-              alt="mobile logo"
-            />{" "}
-            {/* Fixed */}
-          </a>
-        </div>
-        <div className="middle-section">
-          {" "}
-          {/* Fixed */}
-          <input className="search-bar" type="text" placeholder="search" />{" "}
-          {/* Fixed */}
-          <button className="search-button">
-            {" "}
-            {/* Fixed */}
-            <img
-              className="search-icon"
-              src="images/icons/search-icon.png"
-              alt="search"
-            />{" "}
-            {/* Fixed */}
-          </button>
-        </div>
-        <div className="right-section">
-          {" "}
-          {/* Fixed */}
-          <a className="orders-link header-link" href="/orders">
-            {" "}
-            {/* Fixed */}
-            <span className="orders-text">orders</span> {/* Fixed */}
-          </a>
-          <a className="cart-link header-link" href="/checkout">
-            {" "}
-            {/* Fixed */}
-            <img
-              className="cart-icon"
-              src="images/icons/cart-icon.png"
-              alt="cart"
-            />{" "}
-            {/* Fixed */}
-            <div className="cart-quantity">3</div> {/* Fixed */}
-            <div className="cart-text">cart</div> {/* Fixed */}
-          </a>
-        </div>
-      </div>
+      <Header />
 
       {/* Rest of your orders page JSX remains the same */}
       <div className="orders-page">
