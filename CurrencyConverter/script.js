@@ -15,7 +15,7 @@ async function fetchCurrencies() {
   );
   const data = await response.json();
 
-  console.log(data);
+  // console.log(data);
   const currencyOptions = Object.keys(data.rates);
 
   currencyOptions.forEach((currency) => {
