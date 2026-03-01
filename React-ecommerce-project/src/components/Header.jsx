@@ -11,7 +11,7 @@ export function Header({ cart }) {
       <div className="header">
         <div className="left-section">
           <Link to="/" className="header-link">
-            PieBerlin Ecommerce
+            <img className="logo" src="images/PieBerlin5.png" alt="PieBerlin" />
           </Link>
         </div>
 
