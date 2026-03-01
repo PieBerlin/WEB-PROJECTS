@@ -116,7 +116,9 @@
 }
 
 .checkout-page .product-quantity .link-primary {
+  cursor: pointer;
   margin-left: 3px;
+  text-decoration: underline;
 }
 
 @media (max-width: 1000px) {
@@ -149,6 +151,7 @@
 .checkout-page .delivery-option-input {
   margin: 3px 5px 0px 0px;
   cursor: pointer;
+
 }
 
 .checkout-page .delivery-option-date {
